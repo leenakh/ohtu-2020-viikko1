@@ -8,6 +8,8 @@ public class Main {
 
         Varasto mehua = new Varasto(100.0);
         Varasto olutta = new Varasto(100.0, 20.2);
+        
+        System.out.println("Kukkuu!");
 
         System.out.println("Luonnin jälkeen:");
         System.out.println("Mehuvarasto: " + mehua);
