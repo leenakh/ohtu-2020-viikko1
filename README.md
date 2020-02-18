@@ -4,4 +4,4 @@
 
 [![codecov](https://codecov.io/gh/leenakh/ohtu-2020-viikko1/branch/master/graph/badge.svg)](https://codecov.io/gh/leenakh/ohtu-2020-viikko1)
 
-Tehtävät 14 - 16: git@github.com:leenakh/ohtu-2020-viikko1-b.git
+Tehtävät 14 - 16: https://github.com/leenakh/ohtu-2020-viikko1-b.git
