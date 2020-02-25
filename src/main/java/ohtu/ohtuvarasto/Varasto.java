@@ -24,9 +24,8 @@ public class Varasto {
             this.tilavuus = tilavuus;
             this.saldo = alkuSaldo;
         }
-        if (alkuSaldo > tilavuus) 
-        {// mahtuu
-        this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
+        if (alkuSaldo > tilavuus) {// mahtuu
+            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
 // --- ottavat aksessorit eli getterit: ---
