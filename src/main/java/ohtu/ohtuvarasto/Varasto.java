@@ -20,12 +20,12 @@ public class Varasto {
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
         this.tilavuus = 0.0;
         this.saldo = 0.0;
-        if (tilavuus > 0.0) {
+        if (tilavuus > 0.0 && alkuSaldo > 0.0) {
             this.tilavuus = tilavuus;
             this.saldo = alkuSaldo;
         }
         if (alkuSaldo > tilavuus) {// mahtuu
-            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
+        this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
         }
     }
 // --- ottavat aksessorit eli getterit: ---
