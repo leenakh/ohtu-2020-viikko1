@@ -50,7 +50,7 @@ plugins:
     config:
       file: "checkstyle.xml"
 exclude_patterns:
-- "config/"
+
 - "db/"
 - "dist/"
 - "features/"
